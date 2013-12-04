@@ -1,0 +1,9 @@
+SELECT DISTINCT ?wpIdentifier ?pathway ?page
+WHERE {
+    ?pathway dc:title ?title .
+    ?pathway wp:organism ?organism .
+    ?pathway foaf:page ?page .
+    ?pathway dc:identifier ?wpIdentifier .
+    ?organism rdfs:label "Mus musculus"^^<http://www.w3.org/2001/XMLSchema#string> .
+ }
+ORDER BY ?wpIdentifier 
