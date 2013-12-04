@@ -1,0 +1,4 @@
+wpExampleSparqlQueries
+======================
+
+Example Sparql Queries
